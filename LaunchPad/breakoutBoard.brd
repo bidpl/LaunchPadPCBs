@@ -104,6 +104,7 @@
 <circle x="3.81" y="8.89" radius="0.803215625" width="0.381" layer="1"/>
 <circle x="3.81" y="6.35" radius="0.803215625" width="0.381" layer="1"/>
 <circle x="3.81" y="3.81" radius="0.803215625" width="0.381" layer="1"/>
+<wire x1="12.7" y1="8.89" x2="12.7" y2="3.81" width="3.048" layer="39"/>
 </plain>
 <libraries>
 <library name="launchpadParts">
