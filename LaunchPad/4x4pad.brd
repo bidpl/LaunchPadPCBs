@@ -113,6 +113,42 @@
 <circle x="34" y="22.05" radius="0.803215625" width="0.381" layer="1"/>
 <hole x="36.54" y="22.05" drill="1.27"/>
 <circle x="36.54" y="22.05" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="104.3" y="82.35" drill="1.27"/>
+<circle x="104.3" y="82.35" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="78.9" y="82.25" drill="1.27"/>
+<circle x="78.9" y="82.25" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="53.5" y="82.25" drill="1.27"/>
+<circle x="53.5" y="82.25" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="104.4" y="56.85" drill="1.27"/>
+<circle x="104.4" y="56.85" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="78.9" y="56.85" drill="1.27"/>
+<circle x="78.9" y="56.85" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="53.5" y="56.85" drill="1.27"/>
+<circle x="53.5" y="56.85" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="53.5" y="31.45" drill="1.27"/>
+<circle x="53.5" y="31.45" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="78.9" y="31.45" drill="1.27"/>
+<circle x="78.9" y="31.45" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="104.3" y="31.45" drill="1.27"/>
+<circle x="104.3" y="31.45" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="53.5" y="64.55" drill="1.27"/>
+<circle x="53.5" y="64.55" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="79" y="64.55" drill="1.27"/>
+<circle x="79" y="64.55" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="104.3" y="64.55" drill="1.27"/>
+<circle x="104.3" y="64.55" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="53.6" y="39.15" drill="1.27"/>
+<circle x="53.6" y="39.15" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="79" y="39.15" drill="1.27"/>
+<circle x="79" y="39.15" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="104.4" y="39.25" drill="1.27"/>
+<circle x="104.4" y="39.25" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="104.3" y="13.75" drill="1.27"/>
+<circle x="104.3" y="13.75" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="78.9" y="13.75" drill="1.27"/>
+<circle x="78.9" y="13.75" radius="0.803215625" width="0.381" layer="1"/>
+<hole x="53.5" y="13.75" drill="1.27"/>
+<circle x="53.5" y="13.75" radius="0.803215625" width="0.381" layer="1"/>
 </plain>
 <libraries>
 <library name="launchpadParts">
@@ -797,12 +833,6 @@ design rules under a new name.</description>
 <wire x1="91.9" y1="91.5" x2="111.6" y2="91.5" width="0.1524" layer="1"/>
 <wire x1="111.6" y1="91.5" x2="111.6" y2="91.4" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$49">
-<wire x1="109.4" y1="31.3" x2="109.2" y2="31.3" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$50">
-<wire x1="109.5" y1="57.1" x2="109.4" y2="57.1" width="0.1524" layer="1"/>
-</signal>
 <signal name="N$51">
 <wire x1="119.6" y1="87.3" x2="117.8" y2="86" width="0.1524" layer="1"/>
 <wire x1="117.8" y1="86" x2="96.3" y2="86" width="0.1524" layer="1"/>
@@ -1107,6 +1137,69 @@ design rules under a new name.</description>
 <signal name="N$91">
 <wire x1="35.4" y1="66.1" x2="29.9" y2="66.1" width="0.125" layer="1"/>
 <wire x1="29.9" y1="66.1" x2="28.1" y2="67.9" width="0.125" layer="1"/>
+</signal>
+<signal name="N$92">
+<wire x1="104.3" y1="82.4" x2="109.2" y2="82.4" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$106">
+<wire x1="78.9" y1="82.3" x2="83.8" y2="82.3" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$107">
+<wire x1="53.5" y1="82.3" x2="58.4" y2="82.3" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$50">
+<wire x1="104.4" y1="56.9" x2="109.3" y2="56.9" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$108">
+<wire x1="78.9" y1="56.9" x2="83.8" y2="56.9" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$109">
+<wire x1="53.5" y1="56.9" x2="58.4" y2="56.9" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$110">
+<wire x1="53.5" y1="31.5" x2="58.4" y2="31.5" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$111">
+<wire x1="78.9" y1="31.5" x2="83.8" y2="31.5" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$49">
+<wire x1="104.3" y1="31.5" x2="109.2" y2="31.5" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$112">
+<wire x1="58.4" y1="62" x2="56" y2="62" width="0.1524" layer="1"/>
+<wire x1="56" y1="62" x2="53.5" y2="64.5" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$113">
+<wire x1="83.9" y1="62" x2="81.5" y2="62" width="0.1524" layer="1"/>
+<wire x1="81.5" y1="62" x2="79" y2="64.5" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$114">
+<wire x1="109.2" y1="62" x2="106.8" y2="62" width="0.1524" layer="1"/>
+<wire x1="106.8" y1="62" x2="104.3" y2="64.5" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$115">
+<wire x1="58.5" y1="36.6" x2="56.1" y2="36.6" width="0.1524" layer="1"/>
+<wire x1="56.1" y1="36.6" x2="53.6" y2="39.1" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$116">
+<wire x1="83.9" y1="36.6" x2="81.5" y2="36.6" width="0.1524" layer="1"/>
+<wire x1="81.5" y1="36.6" x2="79" y2="39.1" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$117">
+<wire x1="109.3" y1="36.7" x2="106.9" y2="36.7" width="0.1524" layer="1"/>
+<wire x1="106.9" y1="36.7" x2="104.4" y2="39.2" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$118">
+<wire x1="109.2" y1="11.2" x2="106.8" y2="11.2" width="0.1524" layer="1"/>
+<wire x1="106.8" y1="11.2" x2="104.3" y2="13.7" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$119">
+<wire x1="83.8" y1="11.2" x2="81.4" y2="11.2" width="0.1524" layer="1"/>
+<wire x1="81.4" y1="11.2" x2="78.9" y2="13.7" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$120">
+<wire x1="58.4" y1="11.2" x2="56" y2="11.2" width="0.1524" layer="1"/>
+<wire x1="56" y1="11.2" x2="53.5" y2="13.7" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
