@@ -878,6 +878,7 @@ design rules under a new name.</description>
 <vertex x="129.54" y="101.6"/>
 <vertex x="127" y="104.14"/>
 </polygon>
+<wire x1="12.7" y1="81.28" x2="12.7" y2="88.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <polygon width="0.1524" layer="1">
@@ -1407,6 +1408,18 @@ design rules under a new name.</description>
 <signal name="N$148">
 <wire x1="29" y1="87.9" x2="32.5" y2="91.4" width="0.1524" layer="1"/>
 <wire x1="32.5" y1="91.4" x2="35.4" y2="91.4" width="0.1524" layer="1"/>
+</signal>
+<signal name="S$3">
+<wire x1="12.9" y1="89" x2="11" y2="87.1" width="0.1524" layer="1"/>
+</signal>
+<signal name="S$2">
+<wire x1="12.7" y1="81.3" x2="20" y2="81.3" width="0.1524" layer="1"/>
+<wire x1="20" y1="81.3" x2="23.8" y2="85.1" width="0.1524" layer="1"/>
+<wire x1="23.8" y1="85.1" x2="23.8" y2="88.6" width="0.1524" layer="1"/>
+<wire x1="23.8" y1="88.6" x2="18.7" y2="93.7" width="0.1524" layer="1"/>
+<wire x1="18.7" y1="93.7" x2="17.4" y2="93.7" width="0.1524" layer="1"/>
+<wire x1="17.4" y1="93.7" x2="14.6" y2="96.5" width="0.1524" layer="1"/>
+<wire x1="14.6" y1="96.5" x2="12.7" y2="96.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="S$1">
 <wire x1="12.7" y1="86.4" x2="20.9" y2="86.4" width="0.1524" layer="1"/>
