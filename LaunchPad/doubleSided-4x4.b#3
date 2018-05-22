@@ -105,21 +105,6 @@
 <circle x="5.08" y="83.82" radius="0.803215625" width="0.381" layer="16"/>
 <circle x="5.08" y="83.82" radius="0.803215625" width="0.381" layer="1"/>
 <rectangle x1="11.43" y1="95.25" x2="13.97" y2="97.79" layer="16"/>
-<hole x="10.16" y="96.52" drill="1.27"/>
-<circle x="10.16" y="96.52" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="10.16" y="96.52" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="22.86" y="96.52" drill="1.27"/>
-<circle x="22.86" y="96.52" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="22.86" y="96.52" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="12.7" y="88.9" drill="1.27"/>
-<circle x="12.7" y="88.9" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="12.7" y="88.9" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="12.7" y="86.36" drill="1.27"/>
-<circle x="12.7" y="86.36" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="12.7" y="86.36" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="2.54" y="81.28" drill="1.27"/>
-<circle x="2.54" y="81.28" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="2.54" y="81.28" radius="0.803215625" width="0.762" layer="1"/>
 </plain>
 <libraries>
 <library name="launchpadParts">
@@ -165,7 +150,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -183,7 +168,7 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="12mil"/>
+<param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
 <param name="mdPadPad" value="6mil"/>
@@ -414,7 +399,6 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="96.52" x2="22.86" y2="96.52" width="0.3" layer="16"/>
 <via x="22.86" y="96.52" extent="1-16" drill="0.35"/>
 <via x="2.54" y="81.28" extent="1-16" drill="0.35"/>
-<wire x1="17.25" y1="80.85" x2="5.08" y2="83.82" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5V">
 <contactref element="U$2" pad="4"/>
