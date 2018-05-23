@@ -105,24 +105,6 @@
 <circle x="5.08" y="83.82" radius="0.803215625" width="0.381" layer="16"/>
 <circle x="5.08" y="83.82" radius="0.803215625" width="0.381" layer="1"/>
 <rectangle x1="11.43" y1="95.25" x2="13.97" y2="97.79" layer="16"/>
-<hole x="10.16" y="96.52" drill="1.27"/>
-<circle x="10.16" y="96.52" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="10.16" y="96.52" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="2.54" y="96.52" drill="1.27"/>
-<circle x="2.54" y="96.52" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="2.54" y="96.52" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="22.86" y="96.52" drill="1.27"/>
-<circle x="22.86" y="96.52" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="22.86" y="96.52" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="12.7" y="88.9" drill="1.27"/>
-<circle x="12.7" y="88.9" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="12.7" y="88.9" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="12.7" y="86.36" drill="1.27"/>
-<circle x="12.7" y="86.36" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="12.7" y="86.36" radius="0.803215625" width="0.762" layer="1"/>
-<hole x="2.54" y="81.28" drill="1.27"/>
-<circle x="2.54" y="81.28" radius="0.803215625" width="0.762" layer="16"/>
-<circle x="2.54" y="81.28" radius="0.803215625" width="0.762" layer="1"/>
 </plain>
 <libraries>
 <library name="launchpadParts">
@@ -512,7 +494,6 @@ design rules under a new name.</description>
 <vertex x="13.97" y="97.79"/>
 </polygon>
 <wire x1="20" y1="36" x2="9" y2="36" width="0.1524" layer="1"/>
-<wire x1="10.16" y1="96.52" x2="10.16" y2="96.52" width="0" layer="19" extent="1-16"/>
 <via x="10.16" y="96.52" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="CLK5">
@@ -937,21 +918,6 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="17.78" x2="13.97" y2="16.51" width="0.1524" layer="16"/>
 <wire x1="13.97" y1="16.51" x2="23.114" y2="16.51" width="0.1524" layer="16"/>
 <wire x1="23.114" y1="16.51" x2="25.146" y2="18.542" width="0.1524" layer="16"/>
-</signal>
-<signal name="5V1">
-<wire x1="2.54" y1="96.52" x2="2.54" y2="96.52" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="5V2">
-<wire x1="22.86" y1="96.52" x2="22.86" y2="96.52" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="5V3">
-<wire x1="12.7" y1="88.9" x2="12.7" y2="88.9" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="5V4">
-<wire x1="12.7" y1="86.36" x2="12.7" y2="86.36" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="5V5">
-<wire x1="2.54" y1="81.28" x2="2.54" y2="81.28" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>
