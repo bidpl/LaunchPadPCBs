@@ -668,9 +668,9 @@ design rules under a new name.</description>
 <contactref element="U$22" pad="P$1"/>
 <contactref element="U$26" pad="P$2"/>
 <contactref element="U$26" pad="P$1"/>
-<wire x1="14.92" y1="73.46" x2="14.92" y2="58.54" width="0.1524" layer="16"/>
-<wire x1="14.92" y1="38.54" x2="14.92" y2="53.46" width="0.1524" layer="16"/>
-<wire x1="14.92" y1="33.46" x2="14.92" y2="18.54" width="0.1524" layer="16"/>
+<wire x1="14.92" y1="18.54" x2="14.92" y2="33.46" width="0.381" layer="16"/>
+<wire x1="14.92" y1="53.46" x2="14.92" y2="38.54" width="0.381" layer="16"/>
+<wire x1="14.92" y1="58.54" x2="14.92" y2="73.46" width="0.381" layer="16"/>
 <wire x1="14.92" y1="73.46" x2="14.92" y2="78.54" width="0" layer="19" extent="1-1"/>
 <wire x1="14.92" y1="53.46" x2="14.92" y2="58.54" width="0" layer="19" extent="1-1"/>
 <wire x1="14.92" y1="33.46" x2="14.92" y2="38.54" width="0" layer="19" extent="1-1"/>
@@ -685,11 +685,11 @@ design rules under a new name.</description>
 <contactref element="U$27" pad="P$1"/>
 <contactref element="U$23" pad="P$2"/>
 <contactref element="U$23" pad="P$1"/>
-<wire x1="34.92" y1="73.46" x2="34.92" y2="58.54" width="0.1524" layer="16"/>
-<wire x1="34.92" y1="53.46" x2="34.92" y2="38.54" width="0.1524" layer="16"/>
-<wire x1="34.92" y1="33.46" x2="34.92" y2="18.54" width="0.1524" layer="16"/>
+<wire x1="34.92" y1="73.46" x2="34.92" y2="58.54" width="0.381" layer="16"/>
+<wire x1="34.92" y1="33.46" x2="34.92" y2="18.54" width="0.381" layer="16"/>
 <wire x1="34.92" y1="73.46" x2="34.92" y2="78.54" width="0" layer="19" extent="1-1"/>
 <wire x1="34.92" y1="53.46" x2="34.92" y2="58.54" width="0" layer="19" extent="1-1"/>
+<wire x1="34.92" y1="38.54" x2="34.92" y2="53.46" width="0" layer="19" extent="1-1"/>
 <wire x1="34.92" y1="33.46" x2="34.92" y2="38.54" width="0" layer="19" extent="1-1"/>
 <wire x1="34.92" y1="13.46" x2="34.92" y2="18.54" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -702,11 +702,11 @@ design rules under a new name.</description>
 <contactref element="U$24" pad="P$1"/>
 <contactref element="U$28" pad="P$2"/>
 <contactref element="U$28" pad="P$1"/>
-<wire x1="54.92" y1="73.46" x2="54.92" y2="58.54" width="0.1524" layer="16"/>
-<wire x1="54.92" y1="53.46" x2="54.92" y2="38.54" width="0.1524" layer="16"/>
-<wire x1="54.92" y1="33.46" x2="54.92" y2="18.54" width="0.1524" layer="16"/>
+<wire x1="54.92" y1="73.46" x2="54.92" y2="58.54" width="0.381" layer="16"/>
+<wire x1="54.92" y1="33.46" x2="54.92" y2="18.54" width="0.381" layer="16"/>
 <wire x1="54.92" y1="73.46" x2="54.92" y2="78.54" width="0" layer="19" extent="1-1"/>
 <wire x1="54.92" y1="53.46" x2="54.92" y2="58.54" width="0" layer="19" extent="1-1"/>
+<wire x1="54.92" y1="38.54" x2="54.92" y2="53.46" width="0" layer="19" extent="1-1"/>
 <wire x1="54.92" y1="33.46" x2="54.92" y2="38.54" width="0" layer="19" extent="1-1"/>
 <wire x1="54.92" y1="13.46" x2="54.92" y2="18.54" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -719,11 +719,11 @@ design rules under a new name.</description>
 <contactref element="U$29" pad="P$1"/>
 <contactref element="U$25" pad="P$2"/>
 <contactref element="U$25" pad="P$1"/>
-<wire x1="74.92" y1="73.46" x2="74.92" y2="58.54" width="0.1524" layer="16"/>
-<wire x1="74.92" y1="53.46" x2="74.92" y2="38.54" width="0.1524" layer="16"/>
-<wire x1="74.92" y1="33.46" x2="74.92" y2="18.54" width="0.1524" layer="16"/>
+<wire x1="74.92" y1="73.46" x2="74.92" y2="58.54" width="0.381" layer="16"/>
+<wire x1="74.92" y1="33.46" x2="74.92" y2="18.54" width="0.381" layer="16"/>
 <wire x1="74.92" y1="73.46" x2="74.92" y2="78.54" width="0" layer="19" extent="1-1"/>
 <wire x1="74.92" y1="53.46" x2="74.92" y2="58.54" width="0" layer="19" extent="1-1"/>
+<wire x1="74.92" y1="38.54" x2="74.92" y2="53.46" width="0" layer="19" extent="1-1"/>
 <wire x1="74.92" y1="33.46" x2="74.92" y2="38.54" width="0" layer="19" extent="1-1"/>
 <wire x1="74.92" y1="13.46" x2="74.92" y2="18.54" width="0" layer="19" extent="1-1"/>
 </signal>
